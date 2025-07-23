@@ -110,7 +110,7 @@ export const packageJsonSortRules = [
  *
  * Credits to https://github.com/antfu/eslint-config.
  */
-export const TsconfigJsonSortRules = [
+export const tsconfigJsonSortRules = [
   {
     files: ['**/[jt]sconfig.json', '**/[jt]sconfig.*.json'],
     name: 'antfu/sort/tsconfig-json',

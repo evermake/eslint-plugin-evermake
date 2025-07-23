@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-evermake",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packageManager": "pnpm@10.12.4",
   "description": "A collection of some ESLint rules.",
   "license": "MIT",

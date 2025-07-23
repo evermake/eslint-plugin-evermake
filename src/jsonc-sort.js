@@ -1,12 +1,12 @@
 /**
- * Rules to sort package.json with "jconc" plugin.
+ * Config to sort package.json files with "jsonc" plugin.
  *
  * Credits to https://github.com/antfu/eslint-config.
  */
 export const packageJsonSortRules = [
   {
     files: ['**/package.json'],
-    name: 'antfu/sort/package-json',
+    name: 'evermake/jsonc-sort-package-json',
     rules: {
       'jsonc/sort-array-values': [
         'error',
@@ -106,14 +106,14 @@ export const packageJsonSortRules = [
 ]
 
 /**
- * Rules to sort tsconfig.json with "jconc" plugin.
+ * Config to sort tsconfig.json files with "jsonc" plugin.
  *
  * Credits to https://github.com/antfu/eslint-config.
  */
 export const tsconfigJsonSortRules = [
   {
     files: ['**/[jt]sconfig.json', '**/[jt]sconfig.*.json'],
-    name: 'antfu/sort/tsconfig-json',
+    name: 'evermake/jsonc-sort-tsconfig-json',
     rules: {
       'jsonc/sort-keys': [
         'error',

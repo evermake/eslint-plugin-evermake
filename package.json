@@ -5,7 +5,9 @@
   "packageManager": "pnpm@10.12.4",
   "description": "A collection of some ESLint rules.",
   "license": "MIT",
-  "keywords": ["eslint-plugin"],
+  "keywords": [
+    "eslint-plugin"
+  ],
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
@@ -14,7 +16,9 @@
   },
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "unbuild",
     "lint": "eslint .",
@@ -22,6 +26,9 @@
   },
   "peerDependencies": {
     "eslint": ">=9.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-evermake": "^0.1.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.18.0",

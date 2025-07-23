@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      eslint-plugin-evermake:
+        specifier: ^0.1.1
+        version: 0.1.1(eslint@9.31.0(jiti@2.4.2))
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^4.18.0
@@ -962,6 +966,11 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=8'
+
+  eslint-plugin-evermake@0.1.1:
+    resolution: {integrity: sha512-7DStXbisrfRMbqWnW6UvN5gYSAbOmzBWBbvLUCQL7TZyY7Cd7r6asL8vYoTT83xll0qpN+XoQp9IzD399ej/qA==}
+    peerDependencies:
+      eslint: '>=9.0.0'
 
   eslint-plugin-format@1.0.1:
     resolution: {integrity: sha512-Tdns+CDjS+m7QrM85wwRi2yLae88XiWVdIOXjp9mDII0pmTBQlczPCmjpKnjiUIY3yPZNLqb5Ms/A/JXcBF2Dw==}
@@ -2960,6 +2969,10 @@ snapshots:
       '@eslint-community/regexpp': 4.12.1
       eslint: 9.31.0(jiti@2.4.2)
       eslint-compat-utils: 0.5.1(eslint@9.31.0(jiti@2.4.2))
+
+  eslint-plugin-evermake@0.1.1(eslint@9.31.0(jiti@2.4.2)):
+    dependencies:
+      eslint: 9.31.0(jiti@2.4.2)
 
   eslint-plugin-format@1.0.1(eslint@9.31.0(jiti@2.4.2)):
     dependencies:
